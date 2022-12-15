@@ -4,7 +4,8 @@ pipeline {
         stage('Build') {  
             steps { 
                 echo "Build"
-                echo " Job Name =${JOB_NAME}"  
+                echo "Job Name =${JOB_NAME}"
+                echo "Build ID =${BUILD_ID}"  
             } 
         } 
         stage('Test') {  
