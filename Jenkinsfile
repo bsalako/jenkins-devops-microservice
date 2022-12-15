@@ -3,7 +3,8 @@ pipeline {
     stages { 
         stage('Build') {  
             steps { 
-                echo "Build"  
+                echo "Build"
+                echo " Job Name =${JOB_NAME}"  
             } 
         } 
         stage('Test') {  
